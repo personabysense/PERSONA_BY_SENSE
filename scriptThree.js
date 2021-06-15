@@ -1,4 +1,4 @@
-import * as THREE from './build/three.module.js';
+import * as THREE from 'https://github.com/personabysense/PERSONA_BY_SENSE/blob/main/build/three.module.js';
 
 import Stats from './libs/stats.module.js';
 import { GUI } from './libs/dat.gui.module.js';
