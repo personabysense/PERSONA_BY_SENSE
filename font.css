@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Telegraf";
+  font-family: "Neue Machina",sans-serif;
+}
+
+@font-face {
+    font-family: 'Scope';
+    src: url('Scope/Scope.woff2') format('woff2'),
+         url('Scope/Scope.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,393 @@
+html,body {
+	margin: 0;
+	background-color: #FFF;
+	overflow: hidden;
+}
+
+:root{
+	--barWidth0:0;
+	--barWidth:0;
+}
+
+header{
+	position: absolute;
+	background-color: #F4F4F6;
+	height: 60px;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main{
+	width: 100vw;
+	height: 100vh;
+	box-sizing: border-box;
+	margin-top: 60px;
+	margin-bottom: 0;
+	display: flex;
+	flex-flow: column;
+}
+
+#top{
+	width: 100vw;
+	height: 36vw;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 24px 24px 0 24px;
+	clip-path: inset(0);
+}
+
+
+
+.progress {
+	background: #0064FB;
+	justify-content: flex-start;
+	align-items: center;
+	position: absolute;
+	display: flex;
+	height: 3px;
+	width: 100%;
+	bottom:0;
+}
+
+.progressValue {
+	background: #0064FB;
+	height: 3px;
+	width: var(--barWidth);
+	bottom:0;
+}
+
+#centerCont {
+	width: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#names{
+	font-family: "Scope";
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	color: #313132;
+}
+
+#percentage {
+	font-family: "Scope";
+	font-weight: normal;
+	font-size: 12px;
+	color: #313132;
+	margin-left: 18px;
+	padding: 2px 8px;
+	background: #DBDADA;
+	border-radius: 20px;
+}
+
+.sinistra{
+	width: 230px;
+	margin-left: 24px;
+}
+
+.destra{
+	display: flex;
+	flex-flow: row;
+	margin-right: 24px;
+	/* width: 220px; */
+	justify-content: center;
+	align-items: center;
+}
+
+#photoDx {
+	background-color: #E0E0E0;
+	width: 40px;
+	height: 40px;
+	clip-path: circle(50%);
+}
+
+#elabDati{
+	font-family: "Telegraf";
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: #313132;
+	width: 220px;
+	margin-right: 12px;
+	text-align: right;
+}
+
+.sense2{
+	width:128px;
+}
+
+
+#utente{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	color: white;
+	font-family: "Scope";
+	font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+	text-align: right;
+}
+
+#left{
+	order:1;
+	width: 60%;
+	box-sizing: border-box;
+}
+
+
+#video {
+	width:100%;
+	height: auto;
+}
+
+#videoContainer {
+	width: 100%;
+	height: auto;
+	transform: scaleX(-1);
+}
+
+#right {
+	order:2;
+	width: 40%;
+	box-sizing: border-box;
+}
+
+#c {
+	width: 100%;
+	height: 35vw;
+	display: block;
+}
+
+.dg.ac {
+	display: none;
+}
+
+#bottom{
+	width: 100vw;
+	height: 128px;
+	box-sizing: border-box;
+	padding: 24px 24px 24px 24px;
+	display: flex;
+	align-items: center;
+}
+
+#sxContainer {
+	width: 60%;
+	height: 100%;
+	display: flex;
+	flex-flow: row;
+}
+
+#data {
+	width: 70%;
+	height: 100%;
+	background: #f4f4f6;
+	border-radius: 5px;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+}
+
+.dataclass{
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+#photo3 {
+	background-color: #E0E0E0;
+	width: 60px;
+	height: 60px;
+	clip-path: circle(50%);
+}
+
+#duerighe{
+	display: flex;
+	align-items: flex-start;
+	flex-flow: column;
+	margin-left: 12px;
+}
+
+#nome{
+	font-family: "Telegraf";
+	font-weight: normal;
+	font-size: 14px;
+	color: #313132;
+	bottom: 0;
+	margin: 0;
+	padding-bottom: 3px;
+}
+
+#collecting {
+	font-family: "Telegraf";
+	font-weight: normal;
+	font-size: 12px;
+	color: #6E717B;
+	top: 0;
+	margin: 0;
+	padding-top: 3px;
+}
+
+.datiArdunio {
+	font-family: "Scope";
+	font-weight: normal;
+	font-size: 12px;
+	color: #313132;
+	margin-left: 18px;
+	padding: 2px 8px;
+	background: #DBDADA;
+	border-radius: 20px;
+}
+
+
+
+#buttons {
+	width: 30%;
+	height: 100%;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	margin-left: 24px;
+	background: #f4f4f6;
+	border-radius: 5px;
+
+
+}
+
+.btns {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+
+#call{
+	background-image: url("assets/cell.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#mic{
+	background-image: url("assets/mic.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 24px 0 24px;
+}
+
+#setts{
+	background-image: url("assets/setts.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#emoContainer {
+	width: 40%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	padding-left: 24px;
+}
+
+#emoTxt {
+	font-family: "Neue Machina";
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background: #f4f4f6;
+	font-size: 48px;
+	font-weight: normal;
+	font-style: normal;
+	color: #0064fb;
+	border-radius: 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+@media screen and (max-width: 600px) {
+
+	#top{
+		width: 100vw;
+		height: 100%;
+		display: flex;
+		flex-flow: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		position: absolute;
+		padding: 24px;
+	}
+
+	#centerCont {
+		display: none;
+	}
+
+	#elabDati {
+		width: auto;
+	}
+
+	.sinistra {
+		width: auto;
+	}
+
+	#left {
+   position: absolute;
+	 max-width: 50%;
+	 max-height: 50%;
+	}
+
+	#right {
+   height: 100%;
+	 width: 100%;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	}
+
+ #c {
+	 height: 50%;
+	 max-width: 100%;
+ }
+
+ #emoContainer {
+	 width: 100%;
+	 padding: 0;
+}
+
+ #sxContainer {
+	 display: none;
+ }
+
+ #bottom {
+	 position: absolute;
+	 height: 90px;
+ 	 padding: 16px 16px 16px 16px;
+	 bottom: 0;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+ }
+
+ #emoTxt {
+	 font-size: 32px;
+ }
+
+}

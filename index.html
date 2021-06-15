@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Persona | Video-Call </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link type="text/css" rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="font.css">
+	<script defer src="face-api.min.js"></script>
+	<script src="p5.js" defer></script>
+	<!-- <script src="sketch.js" defer></script> -->
+	<script src="p5.serialport.js" defer></script>
+</head>
+
+<body>
+
+	<script type='text/javascript' src='tween.js'></script>
+	<script type="module" src="scriptThree.js"></script>
+
+	<header>
+		<div class="sinistra">
+			<img class="sense2" src="assets/logopersona.svg">
+		</div>
+
+		<div id="centerCont">
+			<h1 id="names"> Demo version [2.0] </h1>
+			<!-- <h1 id="percentage"> 2.0 </h1> -->
+		</div>
+
+		<div class="destra">
+			<h1 id="elabDati"> Guest </h1>
+			<div src=# id="photoDx"></div>
+		</div>
+
+		<div class="progress">
+		</div>
+	</header>
+
+	<main>
+
+
+		<div id="top">
+			<div id="left">
+				<div id="videoContainer">
+					<video id="video" width="720" height="560" autoplay muted></video>
+				</div>
+
+			</div>
+
+			<div id="right">
+				<canvas id="c"></canvas>
+
+			</div>
+		</div>
+
+		<div id="bottom">
+			<div id="sxContainer">
+				<!-- <div id="data">
+					<div class="dataclass" id="userData">
+						<img src=# id=photo3>
+						<div id="duerighe">
+							<h1 id="nome"> Giulia Maggi </h1>
+							<h1 id="collecting"> collecting data... </h1>
+						</div>
+					</div>
+
+					<div class="dataclass" id="bpm">
+						<img src="assets/bpm.svg" id="imgBpm">
+						<h1 class="datiArdunio" id="datiBpm"> 78 bpm </h1>
+					</div>
+
+					<div class="dataclass" id="gsr">
+						<img src="assets/gsr.svg" id="imgGsr">
+						<h1 class="datiArdunio" id="datiBpm"> 112 ohm </h1>
+
+					</div>
+				</div> -->
+
+				<!-- <div id="buttons">
+					<div class="btns" id="call"></div>
+
+					<div class="btns" id="mic"></div>
+
+					<div class="btns" id="setts"></div>
+
+				</div> -->
+
+			</div>
+			<div id="emoContainer"> <h1 id="emoTxt"> NEUTRO </h1> </div>
+		</div>
+
+
+	</main>
+
+
+</body>
+</html>
