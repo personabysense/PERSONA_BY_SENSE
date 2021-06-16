@@ -379,7 +379,7 @@ main{
  }
 
  #bottom {
-	 position: absolute;
+	 position: fixed;
 	 height: 90px;
  	 padding: 16px 16px 16px 16px;
 	 bottom: 0;
