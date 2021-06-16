@@ -120,7 +120,7 @@ function init() {
   // model
 
   const loader = new GLTFLoader();
-  loader.load( '/maskk.glb', function ( gltf ) {
+  loader.load( './maskk.glb', function ( gltf ) {
 
     model = gltf.scene;
     model.position.set(0, 0, 0);
