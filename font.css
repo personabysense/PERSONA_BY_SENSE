@@ -1,6 +1,17 @@
 @font-face {
-  font-family: "Telegraf";
-  font-family: "Neue Machina",sans-serif;
+    font-family: 'Telegraf';
+    src: url('Telegraf/Telegraf-Regular.otf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('Neue_Machina/NeueMachina-Regular.otf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
